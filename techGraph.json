@@ -1,5 +1,5 @@
 
-  "nodes": [
+{ "nodes": [
     {
       "tech": "Javascript",
       "code": "js"
@@ -35,3 +35,4 @@
       "source": 2
     }
   ]
+}
