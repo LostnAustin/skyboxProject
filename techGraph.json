@@ -1,38 +1,42 @@
 
 { "nodes": [
-    {
+    {   "id": 1,
+      "tech": "Languages",
+      "code": "l"
+    },
+    {   "id": 2,
       "tech": "Javascript",
       "code": "js"
     },
-    {
+    {   "id": 3,
       "tech": "Ruby",
       "code": "r"
     },
-    {
+    {   "id": 4,
       "tech": "SQL",
       "code": "sql"
     },
-    {
+    {   "id": 5,
       "tech": "Python",
       "code": "py"
     }
     ],
 
 "links": [
-  { "target": 66,
-      "source": 0
+  { "target": 2,
+      "source": 1
     },
     {
       "target": 3,
       "source": 1
     },
     {
-      "target": 100,
-      "source": 2
+      "target": 4,
+      "source": 1
     },
     {
-      "target": 40,
-      "source": 2
+      "target": 4,
+      "source": 1
     }
   ]
 }
